@@ -1,4 +1,4 @@
-import ImgSlider from "@/components/common/img-slider";
+// import ImgSlider from "@/components/common/img-slider";
 import MenuTabs from "@/components/menuTabs";
 import Image from "next/image";
 import BannerBg from "../../public/pizza-img-1.png"

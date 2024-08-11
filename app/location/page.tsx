@@ -23,11 +23,11 @@ export default function page() {
           <Link href="mailto:mangia@pizzeriacarolina.com" className="font-montserrat underline hover:font-bold text-xs">mangia@pizzeriacarolina.com</Link>
         </p>
       </div>
-      <div className="lg:pb-20 bg-[--dark-color]">
+      {/* <div className="lg:pb-20 bg-[--dark-color]">
         <iframe width="100%" height="300" frameBorder="0" scrolling="no" marginHeight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=772%20Dundas%20St%20W%20Toronto,%20ON%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
         <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4bba9c7ca7259e80f84f7dda5e4b7955f0a958f1'></script>
-      </div>
+      </div> */}
     </>
   )
 }

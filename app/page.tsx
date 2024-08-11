@@ -79,7 +79,7 @@ export default function Home() {
         <div className="absolute -z-10 bg-[--dark-color] opacity-50 h-full w-full"></div>
         <Image src={BarImg} alt="" className="absolute -z-20" />
         <p className="text-4xl">FOOD & DRINK</p>
-        <p className="font-montserrat !-mt-2">Click below to see what we're serving.</p>
+        <p className="font-montserrat !-mt-2">Click below to see what we&apos;re serving.</p>
           <button className="border border-[--light-color] px-2 uppercase text-xl hover:bg-[--light-color] hover:text-[--dark-color]">VIEW MENUS</button>
       </div>
     </>

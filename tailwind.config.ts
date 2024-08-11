@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        montserrat: ['__Montserrat_7dfeba', '__Montserrat_Fallback_7dfeba'],
+        economica: ['__Economica_645398', '__Economica_Fallback_645398'],
+      }
     },
   },
   plugins: [],

@@ -1,8 +1,20 @@
+import Footer from "@/components/layout/footer";
+import Header from "@/components/layout/header";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Economica, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const economica = Economica({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const montserrat = Montserrat({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${economica.className} flex flex-col justify-between`}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

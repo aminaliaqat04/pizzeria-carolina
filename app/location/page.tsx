@@ -6,8 +6,8 @@ export default function page() {
   return (
     <>
       <div className="min-h-screen overflow-hidden relative">
-        <div className="absolute -z-10 bg-[--dark-color] opacity-40 h-full w-full"></div>
-        <Image src={BannerBg} alt="" className="absolute object-cover inset-0 min-h-screen -z-20" />
+        <div className="absolute -z-10 bg-[--dark-color] opacity-60 h-full w-full"></div>
+        <Image src={BannerBg} alt="" className="absolute object-cover inset-0 min-h-screen w-full -z-20" />
         <div className="h-48 bg-gradient-to-t from-[--dark-color] max-lg:from-70% to-transparent absolute lg:bottom-0 max-lg:bottom-20 w-full -z-10"></div>
       </div>
       <div className="bg-[--dark-color] text-[--light-color] text-center py-10 flex flex-col gap-5 max-lg:-mt-44 w-full lg:px-48 px-16 pb-20">

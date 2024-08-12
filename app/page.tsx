@@ -12,7 +12,7 @@ export default function Home() {
       {/* Banner */}
       <div className={`min-h-screen w-full relative lg:mt-16`}>
         <div className="lg:hidden` h-96 bg-gradient-to-b from-[--dark-color] to-transparent absolute top-0 w-full -z-10"></div>
-        <Image src={bannerBg} alt="" className="absolute index-0 -z-20 max-lg:min-h-screen lg:max-h-screen object-cover" />
+        <Image src={bannerBg} alt="" className="absolute index-0 -z-20 max-lg:min-h-screen lg:max-h-screen w-full object-cover" />
         <div className="flex justify-center max-lg:mt-20 lg:my-5">
           <Image src={Logo} alt="" className="w-48 " />
         </div>
